@@ -3,7 +3,7 @@
 VERSION ?= `cat VERSION`
 MAJ_VERSION := $(shell echo $(VERSION) | sed 's/\([0-9][0-9]*\)\.\([0-9][0-9]*\)\(\.[0-9][0-9]*\)*/\1/')
 MIN_VERSION := $(shell echo $(VERSION) | sed 's/\([0-9][0-9]*\)\.\([0-9][0-9]*\)\(\.[0-9][0-9]*\)*/\1.\2/')
-IMAGE_NAME ?= first-tree/alpine-erlang-awscli
+IMAGE_NAME ?= firsttreeventures/alpine-erlang-awscli
 
 help:
 	@echo "$(IMAGE_NAME):$(VERSION)"
