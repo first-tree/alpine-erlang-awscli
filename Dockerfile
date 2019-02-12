@@ -15,8 +15,6 @@ RUN apk add --update \
 
 RUN chown -R default:root  ./.local
 
-USER default
-
 ENV PATH=$PATH:/opt/app/.local/bin
 
 CMD ["/bin/bash"]
