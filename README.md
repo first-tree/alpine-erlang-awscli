@@ -1,4 +1,4 @@
-# Erlang on Alpine Linux
+# Erlang AND AWS CLI on Alpine Linux
 
 This is based on [pentacent/alpine-erlang-base](https://hub.docker.com/r/bitwalker/alpine-elixir) with additional libraries specifically 
 for building erlang libraries with native C bindings and aws cli installed.
