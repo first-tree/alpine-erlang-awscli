@@ -1,4 +1,4 @@
-FROM marksargento/alpine-erlang:21 AS aws
+FROM marksargento/alpine-erlang:21
 
 LABEL maintainer="Mark Sargento <marksargento.00@gmail.com>"
 ENV REFRESHED_AT=2019-02-12 \
