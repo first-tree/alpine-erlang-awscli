@@ -6,6 +6,7 @@ ENV REFRESHED_AT=2019-02-12 \
 
 
 RUN apk add --update \
+    curl \
     python \
     python-dev \
     py-pip && \
